@@ -21,7 +21,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="design-based" style="display: none; text-align: justify; line-height: 1.2" ><small>
 This paper develops a design-based theory of uncertainty that is suitable for analyzing quasi-experimental settings, such as difference-in-differences (DiD). A key feature of our framework is that each unit has an idiosyncratic treatment probability that is unknown to the researcher and may be related to the potential outcomes. We derive formulas for the bias of common estimators (including DiD), and provide conditions under which they are unbiased for an intrepretable causal estimand (e.g., analogs to the ATE or ATT). We further show that when the finite population is large, conventional standard errors are valid but typically conservative estimates of the variance of the estimator over the randomization distribution. An interesting feature of our framework is that conventional standard errors tend to become more conservative when treatment probabilities vary across units. This conservativeness helps to (partially) mitigate the undercoverage of confidence intervals when the estimator is biased. Thus, for example, confidence intervals for the DiD estimator can have correct coverage for the average treatment effect on the treated even if the parallel trends assumption does not hold exactly. We show that these dynamics can be important in simulations calibrated to real labor-market data. Our results also have implications for the appropriate level to cluster standard errors, and for the analysis of linear covariate adjustment and instrumental variables.
 </small><br><br/></div>
-[design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf
+<!-- [design-based-arxiv]: https://arxiv.org/pdf/2008.00602.pdf -->
 
 
 
@@ -173,8 +173,6 @@ We evaluate the folk wisdom that algorithmic decision rules trained on data prod
 This paper studies teacher attrition in Wisconsin following Act 10, a policy change which severely weakened teachers’ unions and capped wage growth for teachers. I document a sharp short-run increase in teacher turnover after the Act was passed, driven almost entirely by teachers over the minimum retirement age of 55, whose turnover rate doubled from 17 to 35 percent. Such teachers faced strong incentives to retire before the end of pre-existing collective bargaining agreements in order to secure collectively-bargained retirement benefits (e.g. healthcare), which no longer fell under the scope of collective bargaining after the Act. I find much more modest long-run increases in teacher turnover, consistent with previous estimates of labor supply elasticities. I then attempt to evaluate the effect of the wave of retirements following Act 10 on education quality using grade-level value-added metrics. I find suggestive evidence that student academic performance increased in grades with teachers who retired following the reform, and I obtain similar results when instrumenting for retirement using the pre-existing age distribution of teachers. Differences in value-added between retirees and their replacements can potentially explain some, but not all, of the observed academic improvements.
 </small><br><br/></div>
 
-[act10-draft]:{{ site.baseurl }}{% link assets/files/roth_act10.pdf %}
-
 
 
 # <center> Comments </center>
@@ -187,8 +185,6 @@ This paper studies teacher attrition in Wisconsin following Act 10, a policy cha
 Pedro Sant'Anna and I discovered a statistical error in a recent PNAS paper by Wood, Papachristos, and Tyler that led to spuriously large estimates of the effect of a procedural justice training for police officers. Below are links to our initial letter to the authors detailing the problem and to a re-analysis co-authored with the original authors that corrects the statistical error.
 </small><br><br/></div>
 
-[woodetal-letter]:{{ site.baseurl }}{% link assets/files/Wood-et-al-comment-20200714.pdf %}
-[woodetal-reanalysis]:{{ site.baseurl }}{% link assets/files/wood-et-al-revisited.pdf %}
 
 
 [//]: This java script is the button to show abstract
