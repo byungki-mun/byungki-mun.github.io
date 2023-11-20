@@ -3,8 +3,8 @@ main:
   - title: "CV"
     url: /files/Mun_CV.pdf
 
-  - title: "Papers"
-    url: /publications/
+  # - title: "Papers"
+  #   url: /publications/
 
   # - title: "Talks"
   #   url: /talks/    
